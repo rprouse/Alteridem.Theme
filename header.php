@@ -54,7 +54,7 @@
 		            </button>
 
 					<div id="logo">
-			<span class="site-name"><img src="/wp-content/themes/alteridem/logo.png" class="navbar-brand hidden-xs"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
+			<span class="site-name"><img src="<?php echo get_template_directory_uri() ?>/logo.png" class="navbar-brand hidden-xs"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 					</div><!-- end of #logo -->
 
 		        </div>

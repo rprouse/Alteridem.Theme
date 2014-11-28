@@ -518,9 +518,10 @@ object {
   padding: 0;
 }
 #secondary .widget {
-  margin-bottom: 50px;
-  color: #C1C0C0;
+  margin-bottom: 40px;
+  color: #818080;
   overflow: hidden;
+  line-height: 22px;
 }
 #secondary .widget:last-child {
   margin-bottom: 0px;
@@ -1386,4 +1387,28 @@ button[type=submit],
 .no-js .postform,
 .no-js table#wp-calendar {
   display: block;
+}
+
+.gravatar {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888;
+  margin-right: 5px;
+}
+
+div.social {
+  margin-bottom: -20px;
+}
+
+div.social a i {
+  color: #F6A937;
+  float: right;
+  margin-left: 6px;
+  -webkit-transition: color 0.3s linear;
+     -moz-transition: color 0.3s linear;
+       -o-transition: color 0.3s linear;
+          transition: color 0.3s linear;
+}
+
+div.social a i:hover {
+  color: #363636;
 }
